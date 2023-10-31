@@ -1,0 +1,3 @@
+C:/Users/1/Desktop/nrf2401/cmake-build-debug/CMakeFiles/nrf2401.dir
+C:/Users/1/Desktop/nrf2401/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/1/Desktop/nrf2401/cmake-build-debug/CMakeFiles/rebuild_cache.dir

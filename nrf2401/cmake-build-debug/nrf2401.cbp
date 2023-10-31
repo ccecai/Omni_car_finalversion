@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="nrf2401"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/1/Desktop/nrf2401/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/1/Desktop/nrf2401/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/1/Desktop/nrf2401/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/1/Desktop/nrf2401/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/1/Desktop/nrf2401/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="nrf2401">
+				<Option output="C:/Users/1/Desktop/nrf2401/cmake-build-debug/nrf2401.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/1/Desktop/nrf2401/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/1/Desktop/nrf2401/Core/Inc"/>
+					<Add directory="C:/Users/1/Desktop/nrf2401/Drivers/CMSIS"/>
+					<Add directory="C:/Users/1/Desktop/nrf2401/Drivers/CMSIS/Device"/>
+					<Add directory="C:/Users/1/Desktop/nrf2401/Drivers/CMSIS/Device/ST"/>
+					<Add directory="C:/Users/1/Desktop/nrf2401/Drivers/CMSIS/Device/ST/STM32F1xx"/>
+					<Add directory="C:/Users/1/Desktop/nrf2401/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
+					<Add directory="C:/Users/1/Desktop/nrf2401/Drivers/CMSIS/Include"/>
+					<Add directory="C:/Users/1/Desktop/nrf2401/Drivers/STM32F1xx_HAL_Driver/Inc"/>
+					<Add directory="C:/Users/1/Desktop/nrf2401/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/1/Desktop/nrf2401/cmake-build-debug/Makefile&quot;  VERBOSE=1 nrf2401"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/1/Desktop/nrf2401/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/1/Desktop/nrf2401/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/1/Desktop/nrf2401/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="nrf2401/fast">
+				<Option output="C:/Users/1/Desktop/nrf2401/cmake-build-debug/nrf2401.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/1/Desktop/nrf2401/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/1/Desktop/nrf2401/Core/Inc"/>
+					<Add directory="C:/Users/1/Desktop/nrf2401/Drivers/CMSIS"/>
+					<Add directory="C:/Users/1/Desktop/nrf2401/Drivers/CMSIS/Device"/>
+					<Add directory="C:/Users/1/Desktop/nrf2401/Drivers/CMSIS/Device/ST"/>
+					<Add directory="C:/Users/1/Desktop/nrf2401/Drivers/CMSIS/Device/ST/STM32F1xx"/>
+					<Add directory="C:/Users/1/Desktop/nrf2401/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
+					<Add directory="C:/Users/1/Desktop/nrf2401/Drivers/CMSIS/Include"/>
+					<Add directory="C:/Users/1/Desktop/nrf2401/Drivers/STM32F1xx_HAL_Driver/Inc"/>
+					<Add directory="C:/Users/1/Desktop/nrf2401/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/1/Desktop/nrf2401/cmake-build-debug/Makefile&quot;  VERBOSE=1 nrf2401/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/1/Desktop/nrf2401/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/1/Desktop/nrf2401/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/1/Desktop/nrf2401/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/1/Desktop/nrf2401/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/1/Desktop/nrf2401/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/1/Desktop/nrf2401/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/1/Desktop/nrf2401/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/1/Desktop/nrf2401/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/1/Desktop/nrf2401/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/1/Desktop/nrf2401/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/1/Desktop/nrf2401/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/1/Desktop/nrf2401/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/1/Desktop/nrf2401/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/1/Desktop/nrf2401/Core/Inc/gpio.h">
+			<Option target="nrf2401"/>
+		</Unit>
+		<Unit filename="C:/Users/1/Desktop/nrf2401/Core/Inc/main.h">
+			<Option target="nrf2401"/>
+		</Unit>
+		<Unit filename="C:/Users/1/Desktop/nrf2401/Core/Inc/spi.h">
+			<Option target="nrf2401"/>
+		</Unit>
+		<Unit filename="C:/Users/1/Desktop/nrf2401/Core/Inc/stm32f1xx_hal_conf.h">
+			<Option target="nrf2401"/>
+		</Unit>
+		<Unit filename="C:/Users/1/Desktop/nrf2401/Core/Inc/stm32f1xx_it.h">
+			<Option target="nrf2401"/>
+		</Unit>
+		<Unit filename="C:/Users/1/Desktop/nrf2401/Core/Src/gpio.c">
+			<Option target="nrf2401"/>
+		</Unit>
+		<Unit filename="C:/Users/1/Desktop/nrf2401/Core/Src/main.c">
+			<Option target="nrf2401"/>
+		</Unit>
+		<Unit filename="C:/Users/1/Desktop/nrf2401/Core/Src/spi.c">
+			<Option target="nrf2401"/>
+		</Unit>
+		<Unit filename="C:/Users/1/Desktop/nrf2401/Core/Src/stm32f1xx_hal_msp.c">
+			<Option target="nrf2401"/>
+		</Unit>
+		<Unit filename="C:/Users/1/Desktop/nrf2401/Core/Src/stm32f1xx_it.c">
+			<Option target="nrf2401"/>
+		</Unit>
+		<Unit filename="C:/Users/1/Desktop/nrf2401/Core/Src/system_stm32f1xx.c">
+			<Option target="nrf2401"/>
+		</Unit>
+		<Unit filename="C:/Users/1/Desktop/nrf2401/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h">
+			<Option target="nrf2401"/>
+		</Unit>
+		<Unit filename="C:/Users/1/Desktop/nrf2401/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h">
+			<Option target="nrf2401"/>
+		</Unit>
+		<Unit filename="C:/Users/1/Desktop/nrf2401/Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h">
+			<Option target="nrf2401"/>
+		</Unit>
+		<Unit filename="C:/Users/1/Desktop/nrf2401/Drivers/CMSIS/Include/cmsis_armcc.h">
+			<Option target="nrf2401"/>
+		</Unit>
+		<Unit filename="C:/Users/1/Desktop/nrf2401/Drivers/CMSIS/Include/cmsis_armclang.h">
+			<Option target="nrf2401"/>
+		</Unit>
+		<Unit filename="C:/Users/1/Desktop/nrf2401/Drivers/CMSIS/Include/cmsis_compiler.h">
+			<Option target="nrf2401"/>
+		</Unit>
+		<Unit filename="C:/Users/1/Desktop/nrf2401/Drivers/CMSIS/Include/cmsis_gcc.h">
+			<Option target="nrf2401"/>
+		</Unit>
+		<Unit filename="C:/Users/1/Desktop/nrf2401/Drivers/CMSIS/Include/cmsis_iccarm.h">
+			<Option target="nrf2401"/>
+		</Unit>
+		<Unit filename="C:/Users/1/Desktop/nrf2401/Drivers/CMSIS/Include/cmsis_version.h">
+			<Option target="nrf2401"/>
+		</Unit>
+		<Unit filename="C:/Users/1/Desktop/nrf2401/Drivers/CMSIS/Include/core_armv8mbl.h">
+			<Option target="nrf2401"/>
+		</Unit>
+		<Unit filename="C:/Users/1/Desktop/nrf2401/Drivers/CMSIS/Include/core_armv8mml.h">
+			<Option target="nrf2401"/>
+		</Unit>
+		<Unit filename="C:/Users/1/Desktop/nrf2401/Drivers/CMSIS/Include/core_cm0.h">
+			<Option target="nrf2401"/>
+		</Unit>
+		<Unit filename="C:/Users/1/Desktop/nrf2401/Drivers/CMSIS/Include/core_cm0plus.h">
+			<Option target="nrf2401"/>
+		</Unit>
+		<Unit filename="C:/Users/1/Desktop/nrf2401/Drivers/CMSIS/Include/core_cm1.h">
+			<Option target="nrf2401"/>
+		</Unit>
+		<Unit filename="C:/Users/1/Desktop/nrf2401/Drivers/CMSIS/Include/core_cm23.h">
+			<Option target="nrf2401"/>
+		</Unit>
+		<Unit filename="C:/Users/1/Desktop/nrf2401/Drivers/CMSIS/Include/core_cm3.h">
+			<Option target="nrf2401"/>
+		</Unit>
+		<Unit filename="C:/Users/1/Desktop/nrf2401/Drivers/CMSIS/Include/core_cm33.h">
+			<Option target="nrf2401"/>
+		</Unit>
+		<Unit filename="C:/Users/1/Desktop/nrf2401/Drivers/CMSIS/Include/core_cm4.h">
+			<Option target="nrf2401"/>
+		</Unit>
+		<Unit filename="C:/Users/1/Desktop/nrf2401/Drivers/CMSIS/Include/core_cm7.h">
+			<Option target="nrf2401"/>
+		</Unit>
+		<Unit filename="C:/Users/1/Desktop/nrf2401/Drivers/CMSIS/Include/core_sc000.h">
+			<Option target="nrf2401"/>
+		</Unit>
+		<Unit filename="C:/Users/1/Desktop/nrf2401/Drivers/CMSIS/Include/core_sc300.h">
+			<Option target="nrf2401"/>
+		</Unit>
+		<Unit filename="C:/Users/1/Desktop/nrf2401/Drivers/CMSIS/Include/mpu_armv7.h">
+			<Option target="nrf2401"/>
+		</Unit>
+		<Unit filename="C:/Users/1/Desktop/nrf2401/Drivers/CMSIS/Include/mpu_armv8.h">
+			<Option target="nrf2401"/>
+		</Unit>
+		<Unit filename="C:/Users/1/Desktop/nrf2401/Drivers/CMSIS/Include/tz_context.h">
+			<Option target="nrf2401"/>
+		</Unit>
+		<Unit filename="C:/Users/1/Desktop/nrf2401/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+			<Option target="nrf2401"/>
+		</Unit>
+		<Unit filename="C:/Users/1/Desktop/nrf2401/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h">
+			<Option target="nrf2401"/>
+		</Unit>
+		<Unit filename="C:/Users/1/Desktop/nrf2401/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h">
+			<Option target="nrf2401"/>
+		</Unit>
+		<Unit filename="C:/Users/1/Desktop/nrf2401/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h">
+			<Option target="nrf2401"/>
+		</Unit>
+		<Unit filename="C:/Users/1/Desktop/nrf2401/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h">
+			<Option target="nrf2401"/>
+		</Unit>
+		<Unit filename="C:/Users/1/Desktop/nrf2401/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h">
+			<Option target="nrf2401"/>
+		</Unit>
+		<Unit filename="C:/Users/1/Desktop/nrf2401/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h">
+			<Option target="nrf2401"/>
+		</Unit>
+		<Unit filename="C:/Users/1/Desktop/nrf2401/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h">
+			<Option target="nrf2401"/>
+		</Unit>
+		<Unit filename="C:/Users/1/Desktop/nrf2401/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h">
+			<Option target="nrf2401"/>
+		</Unit>
+		<Unit filename="C:/Users/1/Desktop/nrf2401/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h">
+			<Option target="nrf2401"/>
+		</Unit>
+		<Unit filename="C:/Users/1/Desktop/nrf2401/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h">
+			<Option target="nrf2401"/>
+		</Unit>
+		<Unit filename="C:/Users/1/Desktop/nrf2401/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h">
+			<Option target="nrf2401"/>
+		</Unit>
+		<Unit filename="C:/Users/1/Desktop/nrf2401/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h">
+			<Option target="nrf2401"/>
+		</Unit>
+		<Unit filename="C:/Users/1/Desktop/nrf2401/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h">
+			<Option target="nrf2401"/>
+		</Unit>
+		<Unit filename="C:/Users/1/Desktop/nrf2401/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h">
+			<Option target="nrf2401"/>
+		</Unit>
+		<Unit filename="C:/Users/1/Desktop/nrf2401/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h">
+			<Option target="nrf2401"/>
+		</Unit>
+		<Unit filename="C:/Users/1/Desktop/nrf2401/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h">
+			<Option target="nrf2401"/>
+		</Unit>
+		<Unit filename="C:/Users/1/Desktop/nrf2401/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h">
+			<Option target="nrf2401"/>
+		</Unit>
+		<Unit filename="C:/Users/1/Desktop/nrf2401/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_cortex.h">
+			<Option target="nrf2401"/>
+		</Unit>
+		<Unit filename="C:/Users/1/Desktop/nrf2401/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h">
+			<Option target="nrf2401"/>
+		</Unit>
+		<Unit filename="C:/Users/1/Desktop/nrf2401/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_exti.h">
+			<Option target="nrf2401"/>
+		</Unit>
+		<Unit filename="C:/Users/1/Desktop/nrf2401/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h">
+			<Option target="nrf2401"/>
+		</Unit>
+		<Unit filename="C:/Users/1/Desktop/nrf2401/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_pwr.h">
+			<Option target="nrf2401"/>
+		</Unit>
+		<Unit filename="C:/Users/1/Desktop/nrf2401/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_rcc.h">
+			<Option target="nrf2401"/>
+		</Unit>
+		<Unit filename="C:/Users/1/Desktop/nrf2401/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_system.h">
+			<Option target="nrf2401"/>
+		</Unit>
+		<Unit filename="C:/Users/1/Desktop/nrf2401/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_utils.h">
+			<Option target="nrf2401"/>
+		</Unit>
+		<Unit filename="C:/Users/1/Desktop/nrf2401/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c">
+			<Option target="nrf2401"/>
+		</Unit>
+		<Unit filename="C:/Users/1/Desktop/nrf2401/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c">
+			<Option target="nrf2401"/>
+		</Unit>
+		<Unit filename="C:/Users/1/Desktop/nrf2401/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c">
+			<Option target="nrf2401"/>
+		</Unit>
+		<Unit filename="C:/Users/1/Desktop/nrf2401/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c">
+			<Option target="nrf2401"/>
+		</Unit>
+		<Unit filename="C:/Users/1/Desktop/nrf2401/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c">
+			<Option target="nrf2401"/>
+		</Unit>
+		<Unit filename="C:/Users/1/Desktop/nrf2401/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c">
+			<Option target="nrf2401"/>
+		</Unit>
+		<Unit filename="C:/Users/1/Desktop/nrf2401/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c">
+			<Option target="nrf2401"/>
+		</Unit>
+		<Unit filename="C:/Users/1/Desktop/nrf2401/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c">
+			<Option target="nrf2401"/>
+		</Unit>
+		<Unit filename="C:/Users/1/Desktop/nrf2401/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c">
+			<Option target="nrf2401"/>
+		</Unit>
+		<Unit filename="C:/Users/1/Desktop/nrf2401/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c">
+			<Option target="nrf2401"/>
+		</Unit>
+		<Unit filename="C:/Users/1/Desktop/nrf2401/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c">
+			<Option target="nrf2401"/>
+		</Unit>
+		<Unit filename="C:/Users/1/Desktop/nrf2401/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c">
+			<Option target="nrf2401"/>
+		</Unit>
+		<Unit filename="C:/Users/1/Desktop/nrf2401/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c">
+			<Option target="nrf2401"/>
+		</Unit>
+		<Unit filename="C:/Users/1/Desktop/nrf2401/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c">
+			<Option target="nrf2401"/>
+		</Unit>
+		<Unit filename="C:/Users/1/Desktop/nrf2401/STM32CubeIDE/Application/User/Core/syscalls.c">
+			<Option target="nrf2401"/>
+		</Unit>
+		<Unit filename="C:/Users/1/Desktop/nrf2401/STM32CubeIDE/Application/User/Core/sysmem.c">
+			<Option target="nrf2401"/>
+		</Unit>
+		<Unit filename="C:/Users/1/Desktop/nrf2401/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
